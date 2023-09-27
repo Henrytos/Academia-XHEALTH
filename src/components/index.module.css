@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap");
+@import url("httpfootes://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap");
 
 :root {
   --primary: #161519;
@@ -198,37 +198,34 @@ li {
   transform: translateY(-20%);
 }
 /* Professores Card */
-.personalTitle {
-  font-weight: bold;
-  font-size: var(--size-h4);
-  color: var(--sencudary);
-  text-align: center;
-}
-.personalTitle > span {
-  color: #f9f8fa;
-}
 .personal {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
 }
-.personal > img {
+.personalTitle > span {
+}
+
+.personalTitle {
+  font-size: var(--size-h4);
+  font-family: var(--font-title);
+  color: var(--sencudary);
+}
+.personal > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+.personal > div > img {
   width: 100%;
   object-fit: cover;
+  min-width: 300px;
 }
 .personalText {
-  width: 100%;
+  font-size: var(--size-text);
   font-family: var(--font-text);
-  font-weight: 200;
-  line-height: 2rem;
-  text-align: center;
-}
-@media (max-width: 1600px) {
-  .personal > img {
-    width: 80%;
-    object-fit: cover;
-  }
+  width: 100%;
+  min-width: 300px;
 }
 
 @media (max-width: 1200px) {

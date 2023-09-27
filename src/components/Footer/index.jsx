@@ -15,11 +15,51 @@ export default function Footer() {
       <div>
         <span>Get connected with us on social networks:</span>
         <span>
-          <a href="" target="_blank" rel="noopener noreferrer" style={{all:"unset"}}> <AiOutlineFacebook /></a>
-          <a href="http://" target="_blank" rel="noopener noreferrer" style={{all:"unset"}}> <FiTwitter /></a>
-          <a href="https://www.instagram.com/diogoo_0202/#" target="_blank" rel="noopener noreferrer" style={{all:"unset"}}> <AiOutlineInstagram /></a>
-          <a href="https://www.linkedin.com/in/diogo-ma%C3%A7al-3b37b224a/" target="_blank" rel="noopener noreferrer" style={{all:"unset"}}> <AiOutlineLinkedin /></a>
-          <a href="https://github.com/henryFranz" target="_blank" rel="noopener noreferrer" style={{all:"unset"}}> <AiOutlineGithub /></a>
+          <a
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ all: "unset" }}
+          >
+            {" "}
+            <AiOutlineFacebook />
+          </a>
+          <a
+            href="http://"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ all: "unset" }}
+          >
+            {" "}
+            <FiTwitter />
+          </a>
+          <a
+            href="https://www.instagram.com/diogoo_0202/#"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ all: "unset" }}
+          >
+            {" "}
+            <AiOutlineInstagram />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/diogo-ma%C3%A7al-3b37b224a/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ all: "unset" }}
+          >
+            {" "}
+            <AiOutlineLinkedin />
+          </a>
+          <a
+            href="https://github.com/henryFranz"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ all: "unset" }}
+          >
+            {" "}
+            <AiOutlineGithub />
+          </a>
         </span>
       </div>
       <div>
@@ -58,7 +98,7 @@ export default function Footer() {
           </span>
         </div>
       </div>
-      <div>Feito com amor por Henry e Diogoo &copy; 20023</div>
+      <div>Feito com amor por Henry &copy; 2023</div>
     </footer>
   );
 }

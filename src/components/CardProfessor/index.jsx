@@ -6,18 +6,18 @@ export default function CardProfessor({
   text,
   name,
 }) {
+  const spliteText = (text) => text.slice(0, 300) + "....";
+
   return (
     <>
-      <span
-        className={style.personal}
-        data-aos="fade-up"
-        data-aos-duration={durationAos}
-      >
+      <span className={style.personal}>
         <span className={style.personalTitle}>
           {typeTreino}: <span>{name}</span>
         </span>
-        <img src={src} />
-        <span className={style.personalText}>{text}</span>
+        <div>
+          <img src={src} />
+          <span className={style.personalText}>{spliteText(text)}</span>
+        </div>
       </span>
     </>
   );

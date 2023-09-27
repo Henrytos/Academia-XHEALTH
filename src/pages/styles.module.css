@@ -21,6 +21,7 @@
   background-attachment: fixed;
   background-position: center;
   display: flex;
+  gap: 2rem;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -32,7 +33,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 2;
 }
 
 .homeTitle {
@@ -100,10 +101,11 @@
   flex-direction: column;
   gap: 0.5rem;
   border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s all;
 }
 
 .day:hover {
-  transition: 0.3s all;
   border: 1px solid rgba(148, 180, 32, 0.384);
 }
 
@@ -176,11 +178,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
   width: 100%;
   background-color: var(--primary);
 }
 .personals {
-  padding: 2rem 10%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;

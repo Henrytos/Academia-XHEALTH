@@ -6,16 +6,16 @@
   color: #fff;
 }
 
+.active {
+  font-weight: bold;
+  color: #d5a353;
+  border-bottom: 1px solid #eee;
+  border: #85838370;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
 
-.active{
-    font-weight: bold;
-    border-bottom: 1px solid #eee;
-    border: #85838370;
-  }
-  ::-webkit-scrollbar {
-    width: 0px;
-  }
-  
-body{
+body {
   overflow-x: hidden;
 }
