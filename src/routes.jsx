@@ -1,12 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "./pages/Layout";
-import Home from "./pages/Home"
+import Home from "./pages/Home";
 import Modalidades from "./pages/Modalidades";
 import Depoimentos from "./pages/Depoimentos";
 import Professores from "./pages/Professores";
 import Modalidade from "./pages/Modalidade";
 import Galery from "./components/Galery";
-import Duvidas from "./pages/Duvidas/DuvidasPage";
+import Musculos from "./pages/Musculos";
 
 const router = createBrowserRouter([
   {
@@ -16,7 +16,7 @@ const router = createBrowserRouter([
       {
         index: true,
         path: "/",
-        element: <Home />
+        element: <Home />,
       },
       {
         path: "/modalidades",
@@ -25,13 +25,13 @@ const router = createBrowserRouter([
           {
             index: true,
             path: "/modalidades",
-            element: <Galery />
+            element: <Galery />,
           },
           {
             path: "/modalidades/:id",
-            element: <Modalidade />
-          }
-        ]
+            element: <Modalidade />,
+          },
+        ],
       },
       {
         path: "/depoimentos",
@@ -39,14 +39,14 @@ const router = createBrowserRouter([
       },
       {
         path: "/professores",
-        element: <Professores />
+        element: <Professores />,
       },
       {
-        path :"/Duvidas",
-        element:<Duvidas/>,
+        path: "musculos",
+        element: <Musculos />,
       },
-    ]
-  }
+    ],
+  },
 ]);
 
 export default router;

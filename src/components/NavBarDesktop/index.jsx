@@ -1,10 +1,11 @@
 import { Link, useLocation } from "react-router-dom";
 
 import styles from "../index.module.css";
-export default function NavBarDesktop(){
-    const { pathname } = useLocation();
-    return<>
-  <Link to="/" style={{ all: "unset", cursor: "pointer" }}>
+export default function NavBarDesktop() {
+  const { pathname } = useLocation();
+  return (
+    <>
+      <Link to="/" style={{ all: "unset", cursor: "pointer" }}>
         <div className={styles.logo}>
           <span>
             Academia <span>XHealth</span>
@@ -35,12 +36,12 @@ export default function NavBarDesktop(){
           Professores
         </Link>
         <Link
-          to="/duvidas"
-          className={`${pathname === "/duvidas" ? "active" : ""}`}
+          to="/musculos"
+          className={`${pathname === "/musculos" ? "active" : ""}`}
         >
-          Dúvidas
+          musculos
         </Link>
-      
       </nav>
     </>
+  );
 }
