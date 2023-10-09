@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&amp;display=swap");
+
+:root {
+  --primary: #161519;
+  --sencudary: #d5a353;
+  --font-title: "Oswald", sans-serif;
+  --font-text: "Poppins", sans-serif;
+  --size-h1: 48px;
+  --size-h2: 32px;
+  --size-h3: 28px;
+  --size-h4: 24px;
+  --size-h5: 20px;
+  --size-h6: 18px;
+  --size-text: 16px;
+}

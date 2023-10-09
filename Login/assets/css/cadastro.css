@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&amp;display=swap");
+
+:root {
+  --primary: #000000 ;
+  --secondary: #FFCE6D ;
+  --terceary:#FFFFFF ;
+  --font-title: "Oswald", sans-serif;
+  --font-text: "Poppins", sans-serif;
+  --size-h1: 48px;
+  --size-h2: 32px;
+  --size-h3: 28px;
+  --size-h4: 24px;
+  --size-h5: 20px;
+  --size-h6: 18px;
+  --size-text: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-text);
+    color: var(--terceary);
+}
+.rigth-content{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("../imgs/bg-cadaster.jpg");
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-rigth{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.container-rigth>img{
+    width: 50%;
+    max-width: 20rem;
+}
+.text-rigth{
+    font-size: var(--size-h1);
+    font-family: var(--font-title);
+}
+.left-content{
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+
+}
+.left-content>form{
+    width: 100%;
+    max-width: 20rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.left-title{
+    display: block;
+    color: var(--secondary);
+    font-size: var(--size-h2);
+    font-family: var(--font-title);
+    border-bottom: 1px solid var(--terceary);
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+.labels{
+    font-size: var(--size-h5);
+}
+.input{
+    display: flex;
+    gap: .5rem;
+}
+.inputs{
+    all: unset;
+    border-bottom: 1px solid var(--terceary);
+    flex-grow: 1;
+    color: var(--secondary);
+}
+.btn{
+    width: 100%;
+    max-width: 10rem;
+    margin: auto;
+    text-align: center;
+    padding: .5rem;
+    background-color: var(--primary);
+    color: var(--secondary);
+    border:1px solid var(--secondary) ;
+    border-radius: .5rem;
+    transition: .2s;
+    cursor: pointer;
+    font-size: var(--size-h6);
+}
+.btn:hover{
+    background-color: #d5a353;
+    color: var(--terceary);
+}
+main{
+    height: 100vh;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 768px){
+    main{
+        grid-template-columns: 1fr;
+    }
+    .container-rigth{
+        height: 50vh;
+        padding: 0;
+    }
+    .text-rigth{
+        font-size: var(--size-h2);
+    }
+    .left-content{
+        height: 50vh;
+        padding: 0;
+    }
+
+}
