@@ -105,7 +105,7 @@ header > nav > a:hover {
   transition: 0.5s;
 }
 /* Card Das Modalidades */
-.card {
+.card{
   width: 80vw;
   height: auto;
   display: flex;
@@ -114,7 +114,8 @@ header > nav > a:hover {
   gap: 30px;
 }
 
-.card > img {
+
+.card > img{
   width: 500px;
   height: 500px;
   object-fit: cover;

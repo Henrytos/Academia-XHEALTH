@@ -8,6 +8,7 @@ import Modalidade from "./pages/Modalidade";
 import Galery from "./components/Galery";
 import Musculos from "./pages/Musculos";
 import ListLocal from "./pages/ListLocal";
+import Musculo from "./pages/Musculo";
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: "/musculos",
         element: <Musculos />,
+      },
+      {
+        path: "/musculos/:id",
+        element: <Musculo />,
       },
     ],
   },
