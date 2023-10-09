@@ -183,34 +183,37 @@
   background-color: var(--primary);
 }
 .personals {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  margin-top: 2rem;
+  width: 80%;  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 4rem;
+}
+.titlePersonal{
+  font-size: var(--size-h4);
+  font-family: var(--font-title);
+}
+.textPersonal{
+  color: #f9f8fa;
+  font-family: var(--font-text);
+  font-size: var(--size-text);
+  font-weight: 200
+}
+/* Musculos */
+.imgBody{
+  padding: 2rem 10%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
 }
-.personalTitle {
-  font-weight: bold;
-  font-size: var(--size-h5);
-  color: var(--sencudary);
-  text-align: center;
-}
-.personal {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
-}
-.personal > img {
-  width: 100%;
+.imgBody img{
   object-fit: cover;
-}
-.personalText {
   width: 100%;
-  font-family: var(--font-text);
-  font-weight: 200;
-  line-height: 2rem;
-  text-align: center;
+  max-width: 20rem;
 }
-
 footer {
   width: 100%;
   height: auto;

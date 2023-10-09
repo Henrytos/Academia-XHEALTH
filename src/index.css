@@ -1,10 +1,11 @@
 * {
   margin: 0;
-  padding: 0;
   outline: 0;
   box-sizing: border-box;
+  padding: 0;
   color: #fff;
 }
+
 
 .active {
   font-weight: bold;
@@ -13,7 +14,7 @@
   border: #85838370;
 }
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 10px;
 }
 
 body {

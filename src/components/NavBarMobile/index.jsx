@@ -70,7 +70,7 @@ export default function NavBarMobile() {
             to="/musculos"
             className={`${pathname === "/musculos" ? "active" : ""}`}
           >
-            musculos
+           Musculos
           </Link>
         </div>
       ) : null}

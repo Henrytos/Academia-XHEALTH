@@ -7,6 +7,7 @@ import Professores from "./pages/Professores";
 import Modalidade from "./pages/Modalidade";
 import Galery from "./components/Galery";
 import Musculos from "./pages/Musculos";
+import ListLocal from "./pages/ListLocal";
 
 const router = createBrowserRouter([
   {
@@ -42,7 +43,11 @@ const router = createBrowserRouter([
         element: <Professores />,
       },
       {
-        path: "musculos",
+        path: "/locais",
+        element: <ListLocal/>,
+      },
+      {
+        path: "/musculos",
         element: <Musculos />,
       },
     ],
