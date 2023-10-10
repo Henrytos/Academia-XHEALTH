@@ -105,17 +105,18 @@ header > nav > a:hover {
   transition: 0.5s;
 }
 /* Card Das Modalidades */
-.card{
-  width: 80vw;
+.card,.CardRevert{
+  width: 100%;
   height: auto;
   display: flex;
-
   align-items: center;
+  justify-content: center;
   gap: 30px;
+  padding: 0 10%;
 }
 
 
-.card > img{
+.card > img,.CardRevert>img{
   width: 500px;
   height: 500px;
   object-fit: cover;
@@ -138,6 +139,16 @@ header > nav > a:hover {
   font-family: var(--font-text);
   font-size: var(--size-text);
   font-weight: 200;
+  width: 100%;
+  max-width: 60rem;
+}
+/* reverter */
+.CardRevert{
+  transform: scaleX(-1);
+}
+.CardRevert span,.CardRevert img{
+  transform: scaleX(-1);
+
 }
 
 li {
@@ -150,6 +161,7 @@ li {
 }
 
 .container {
+  width: 100%;
   padding-top: 50px;
 }
 
@@ -204,8 +216,6 @@ li {
   flex-direction: column;
   gap: 2rem;
 }
-.personalTitle > span {
-}
 
 .personalTitle {
   font-size: var(--size-h4);
@@ -230,7 +240,7 @@ li {
 }
 
 @media (max-width: 1200px) {
-  .card {
+  .card,.CardRevert {
     flex-wrap: wrap;
   }
   header {
@@ -253,7 +263,7 @@ li {
     height: 150px;
   }
 
-  .card > img {
+  .card > img,.CardRevert>img {
     width: 300px;
     height: 400px;
     object-fit: cover;
