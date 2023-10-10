@@ -67,6 +67,12 @@ export default function NavBarMobile() {
             Professores
           </Link>
           <Link
+            to="/listLocais"
+            className={`${pathname === "/listLocais" ? "active" : ""}`}
+          >
+           Locais
+          </Link>
+          <Link
             to="/musculos"
             className={`${pathname === "/musculos" ? "active" : ""}`}
           >

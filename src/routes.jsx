@@ -44,7 +44,7 @@ const router = createBrowserRouter([
         element: <Professores />,
       },
       {
-        path: "/locais",
+        path: "/listLocais",
         element: <ListLocal/>,
       },
       {

@@ -36,8 +36,8 @@ export default function NavBarDesktop() {
           Professores
         </Link>
         <Link
-            to="/locais"
-            className={`${pathname === "/locais" ? "active" : ""}`}
+            to="/listLocais"
+            className={`${pathname === "/listLocais" ? "active" : ""}`}
           >
            Locais
           </Link>
