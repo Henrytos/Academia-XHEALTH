@@ -3,6 +3,7 @@
 :root {
   --primary: #161519;
   --sencudary: #d5a353;
+  --terceary:#FFFFFF ;
   --font-title: "Oswald", sans-serif;
   --font-text: "Poppins", sans-serif;
   --size-h1: 48px;
@@ -13,9 +14,25 @@
   --size-h6: 18px;
   --size-text: 16px;
 }
+.labels{
+  font-size: 1.5rem;
+
+}
+.input{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: 2rem 0;
+}
+
+.inputs{
+  all: unset;
+  border-bottom: 1px solid var(--terceary);
+  font-size: 1.5rem;
+}
 
 .home {
-  background-image: url("/public/home.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)),url("/public/home.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -100,7 +117,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  border-radius: 12px;
+  border-radius:.5rem;
   cursor: pointer;
   transition: 0.2s all;
 }
@@ -287,6 +304,7 @@ footer > div:nth-child(2) > div > span:nth-child(1) {
   font-weight: 500;
   font-size: var(--size-text);
   border-bottom: 1px solid #fff;
+  color: var(--sencudary);
 }
 footer > div:nth-child(2) > div {
   display: flex;

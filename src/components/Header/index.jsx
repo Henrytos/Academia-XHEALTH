@@ -17,7 +17,7 @@ export default function Header() {
 
   return (
     <header>
-      {view > 550 ? <NavBarDesktop /> : <NavBarMobile/>}
+      {view > 600 ? <NavBarDesktop /> : <NavBarMobile/>}
     </header>
   );
 }

@@ -8,6 +8,9 @@ export default function CardRigth({card}){
      data-aos="fade-right"
      data-aos-duration="1000"
      src={card.src}
+     style={{
+      transform:"scaleX(-1)"
+     }}
    />
    <span
      className={style.content}
