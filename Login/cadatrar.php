@@ -63,7 +63,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="container-rigth">
         <img src="assets/imgs/favicon.png" alt="logo tipo">
         <p class="text-rigth">Academia <span style="color:#d5a353;font-weight:bolder">XHealth</span></p>
-    
     </div>
     </section>
     </main>

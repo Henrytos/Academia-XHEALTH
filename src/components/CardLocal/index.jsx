@@ -1,11 +1,15 @@
 import style from "../index.module.css"
+import {AiOutlineWhatsApp} from "react-icons/ai"
 
-export default function CardLocal({ local }) {
-    return <div key={local.id} className={style.cardLocal} style={{
+export default function CardLocal({ local  }) {
+
+   
+    return <div  className={style.cardLocal} style={{
         margin:"auto"
     }}
     data-aos="fade-up"
     data-aos-duration="1000"
+    key={Math.random()}
     >
         <img src={local.imageUrl} alt={local.name} />
         <section>
@@ -32,7 +36,7 @@ export default function CardLocal({ local }) {
     className={style.btnView}
     >
         
-            VEJA MAIS
+            CONTATO <AiOutlineWhatsApp/>
       
        </a>
         </section>

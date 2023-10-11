@@ -20,7 +20,7 @@ export default function ListLocal() {
 
         
         <span className={style.input}>
-        <label for="senha" className={style.labels}>E aí, onde você quer treinar?:</label>
+        <label htmlFor="senha" className={style.labels}>E aí, onde você quer treinar?:</label>
         <input value={input} type="text" name="senha" id="senha" className={style.inputs} placeholder="Tucuruvi" onChange={ev => setInput(ev.target.value)
             }/>
         </span>
@@ -36,15 +36,13 @@ export default function ListLocal() {
                 flexWrap:"wrap",
                 gap:"2rem"
             }}>
-            {input.length === 0 ? listLocais.map((local, i) => (
-                <Col>
-                    <CardLocal local={local} key={i} />
+            {input.length === 0 ? listLocais.map((local, i) => <Col>
+                    <CardLocal local={local}/>
                 </Col>
-            )
             ) : listLocais.map((local, i) => {
                 if (local.name.toLowerCase().includes(input.toLowerCase()))
                     return (<Col>
-                        <CardLocal local={local} key={i} />
+                        <CardLocal local={local}  />
                     </Col>)
             }
             )
