@@ -13,8 +13,18 @@ export default function NavBarMobile() {
       <nav>
         <Link to="/" style={{ all: "unset", cursor: "pointer" }}>
           <div className={styles.logo}>
-            <span>
-              Academia <span>XHealth</span>
+            <span
+              style={{ display: "flex", gap: ".5rem", alignItems: "center" }}
+            >
+              <img
+                src="/public/favicon.png"
+                alt=""
+                height={50}
+                style={{
+                  transform: "translateY(-.3rem)",
+                }}
+              />
+              <span>XHealth</span>
             </span>
           </div>
         </Link>
@@ -70,13 +80,13 @@ export default function NavBarMobile() {
             to="/listLocais"
             className={`${pathname === "/listLocais" ? "active" : ""}`}
           >
-           Locais
+            Locais
           </Link>
           <Link
             to="/musculos"
             className={`${pathname === "/musculos" ? "active" : ""}`}
           >
-           Musculos
+            Musculos
           </Link>
         </div>
       ) : null}

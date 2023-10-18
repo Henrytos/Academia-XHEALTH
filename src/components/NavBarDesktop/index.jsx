@@ -7,8 +7,16 @@ export default function NavBarDesktop() {
     <>
       <Link to="/" style={{ all: "unset", cursor: "pointer" }}>
         <div className={styles.logo}>
-          <span>
-            Academia <span>XHealth</span>
+          <span style={{ display: "flex", gap: ".5rem", alignItems: "center" }}>
+            <img
+              src="/public/favicon.png"
+              alt=""
+              height={50}
+              style={{
+                transform: "translateY(-.3rem)",
+              }}
+            />
+            <span>XHealth</span>
           </span>
         </div>
       </Link>
@@ -36,11 +44,11 @@ export default function NavBarDesktop() {
           Professores
         </Link>
         <Link
-            to="/listLocais"
-            className={`${pathname === "/listLocais" ? "active" : ""}`}
-          >
-           Locais
-          </Link>
+          to="/listLocais"
+          className={`${pathname === "/listLocais" ? "active" : ""}`}
+        >
+          Locais
+        </Link>
         <Link
           to="/musculos"
           className={`${pathname === "/musculos" ? "active" : ""}`}
