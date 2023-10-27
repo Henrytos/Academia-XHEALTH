@@ -135,6 +135,7 @@ header > nav > a:hover {
   font-family: var(--font-text);
   font-size: var(--size-text);
   font-weight: 600;
+  font-size: 1.5rem;
 }
 
 .CardText {
@@ -144,6 +145,7 @@ header > nav > a:hover {
   font-weight: 200;
   width: 100%;
   max-width: 60rem;
+  font-size: 1.25rem;
 }
 /* reverter */
 .CardRevert {

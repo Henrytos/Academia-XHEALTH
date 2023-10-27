@@ -22,36 +22,26 @@ const treinos = [
   ],
   [
     {
-      typeTreino: "TRICEPS",
-      title: "Tricep frances",
-      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvC3c8OXqMXZhyqztFEpSp-dbt5fy5UXokJg&usqp=CAU",
-      subTitle: "O QUE É TREINO FUNCIONAL",
-      text: "Esse tipo de treinamento pode ser definido como um grupo de exercícios mais dinâmicos que trabalham diferentes músculos ao mesmo tempo, sem a necessidade de aparelhos de musculação ou atividades de alto impacto, como as do crossfit.    Esse modelo de treino usa o peso do próprio corpo para a realização dos exercícios e, além do corpo físico, os exercícios funcionais também trabalham a mente e a concentração.",
+      typeTreino: "TRÍCEPS",
+      title: "Tríceps Francês",
+      src: "https://fitnessvolt.com/wp-content/uploads/2021/12/French-Press.jpg",
+      subTitle: "Alguns estudos mostram que este exercício é o melhor para o tríceps em geral.",
+    text:"Basicamente, o tríceps francês pode ser feito tanto com barra ou halteres e até mesmo na polia com um auxílio de uma corda com participação estática dos músculos do ombro e do tronco.O movimento articular é uma extensão de cotovelo, que tem como motor primário, o complexo muscular do tríceps. Neste movimento, temos a solicitação das 3 cabeças do tríceps (média, curta e longa)."},
+    {
+      title: "tríceps francês testa",
+      src: "https://images.pexels.com/photos/4608158/pexels-photo-4608158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      subTitle: "Um ótimo exercício para a cabeça longa do tríceps.",
+      text: "Ache uma polia, coloque o equipamento de sua preferência, como por exemplo a corda, fixe os cotovelos ao tronco e empurre o equipamento para baixo, deixando a corda 90° em relação ao seu ponto de origem. Não se esqueça de estufar o peito e retrair as escápulas. Firme os pés no chão de preferência um a frente do outro.",
     },
     {
-      title: "TREINO FUNCIONAL",
-      src: "https://blog.gsuplementos.com.br/wp-content/uploads/2021/04/iStock-1246046696.jpg",
-      subTitle: "O QUE É TREINO FUNCIONAL",
-      text: "Esse tipo de treinamento pode ser definido como um grupo de exercícios mais dinâmicos que trabalham diferentes músculos ao mesmo tempo, sem a necessidade de aparelhos de musculação ou atividades de alto impacto, como as do crossfit.    Esse modelo de treino usa o peso do próprio corpo para a realização dos exercícios e, além do corpo físico, os exercícios funcionais também trabalham a mente e a concentração.",
-    },
-    {
-      title: "TREINO FUNCIONAL",
-      src: "https://blog.gsuplementos.com.br/wp-content/uploads/2021/04/iStock-1246046696.jpg",
-      subTitle: "O QUE É TREINO FUNCIONAL",
-      text: "Esse tipo de treinamento pode ser definido como um grupo de exercícios mais dinâmicos que trabalham diferentes músculos ao mesmo tempo, sem a necessidade de aparelhos de musculação ou atividades de alto impacto, como as do crossfit.    Esse modelo de treino usa o peso do próprio corpo para a realização dos exercícios e, além do corpo físico, os exercícios funcionais também trabalham a mente e a concentração.",
+      title: "Mergulho no banco",
+      src: "https://www.mundoboaforma.com.br/wp-content/uploads/2022/01/supino-triceps.jpg",
+      subTitle: "o que é Mergulho no banco",
+      text: "Esta versão de exercícios para tríceps usa o peso do corpo e é executada com o auxílio de dois bancos retos. Também traz bastante ativação ao músculo do tríceps. Ao adicionar carga ao exercício, colocando um peso no colo, ele torna-se ainda mais eficiente.",
     },
   ],
   [
-    {
-      typeTreino: "PEITO",
-      title: "Supino Declinado",
-      src: "https://images.unsplash.com/photo-1534368959876-26bf04f2c947?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1470",
-      subTitle: "Como executá-lo?",
-      text: "“Para realizar o supino, você pode usar pesos livres ou barra, deitado em um banco. Antes de iniciar, certifique-se de que o banco é adequado para atividades físicas  e que sua postura está correta. Se achar necessário, fale com um profissional”, aconselha Valter.",
-    
-    },
-    {},
-    {}
+   
   ]
 ];
 export default treinos;
