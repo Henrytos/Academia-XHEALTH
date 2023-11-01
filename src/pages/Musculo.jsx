@@ -11,7 +11,7 @@ export default function Musculo() {
   const card = treinos[number];
   return (
     <main className={styles.mainModalidades}>
-      <span className={styles.title}> {card[0].typeTreino}</span>
+      <span className={styles.title}> {card[0].typeTreino.toUpperCase()}</span>
       <CardLeft card={card[0]} />
       <CardRigth card={card[1]} />
       <CardLeft card={card[2]} />

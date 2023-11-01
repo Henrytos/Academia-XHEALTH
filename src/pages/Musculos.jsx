@@ -27,11 +27,11 @@ export default function Musculos() {
         </Link>
         <h2>Tipo - C</h2>
         <Link to="/musculos/5">
-          <h3>PERNA-1</h3>
+          <h3>QUADRÍCEPS E GLÚTEOS</h3>
           <ArrowBigRight />
         </Link>
         <Link to="/musculos/6">
-          <h3>PERNA-2</h3>
+          <h3>POSTERIOR DE COXA E PANTURRILHA</h3>
           <ArrowBigRight />
         </Link>
       </section>

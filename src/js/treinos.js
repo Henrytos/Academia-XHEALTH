@@ -21,6 +21,7 @@ const treinos = [
     },
   ],
   [
+    
     {
       typeTreino: "TRÍCEPS",
       title: "Tríceps Francês",
@@ -84,43 +85,43 @@ const treinos = [
     },
   ],
   [{
-    typeTreino: "Quadríceps",
+    typeTreino: "Quadríceps e Glúteos",
     title: "Agachamento Livre",
     src: "https://dicasdemusculacao.org/wp-content/uploads/2013/12/agachamento-livre.png",
-    subTitle: "O melhor exercícios para pernas..",
+    subTitle: "O melhor exercícios para pernas.",
   text:"Firme os pés, principalmente o calcanhar no chão, agache até sua perna fazer um ângulo de 90 graus, não deixe sua lombar envergar nem incline tanto suas costas para frente, lembre-se também de nunca deixar os joelhos para dentro. uma boa dica é apoiar a barra no trapézio."
 },
   {
-    title: "tríceps francês testa",
-    src: "https://images.pexels.com/photos/4608158/pexels-photo-4608158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    subTitle: "Um ótimo exercício para a cabeça longa do tríceps.",
-    text: "Ache uma polia, coloque o equipamento de sua preferência, como por exemplo a corda, fixe os cotovelos ao tronco e empurre o equipamento para baixo, deixando a corda 90° em relação ao seu ponto de origem. Não se esqueça de estufar o peito e retrair as escápulas. Firme os pés no chão de preferência um a frente do outro.",
+    title: "Cadeira extensora",
+    src: "https://i.pinimg.com/originals/d2/25/c7/d225c710073a68761c09766d710e2e42.jpg",
+    subTitle: "Um dos melhores se não for o melhor para o vasto lateral.",
+    text: "Sente da cadeira e regule para deixar seu quadril colado no apoio do banco, e a dobra do joelho no fim da cadeira, levante o peso até a extensão máxima e abaixe o peso sem perder a tensão. Não se esqueça de segurar firmemente no apoio lateral e manter sua lombar ereta.",
   },
   {
-    title: "Supino Fechado",
-    src: "https://www.mundoboaforma.com.br/wp-content/uploads/2022/01/supino-triceps.jpg",
-    subTitle: "Este é um dos melhores exercícios para a cabeça medial.",
-    text: "Deixe o banco reto, retraia as escápulas assim como é feito no supino tradicional, firme os pés. Na fase concentrica do exercício não estique totalmente o braço para manter uma maior tensão sobre o músculo. Se puder fazer com halteres será bem melhor.",
+    title: "Agachamento sumô",
+    src: "https://i.ytimg.com/vi/5b6biEeKY8w/maxresdefault.jpg",
+    subTitle: "Pesquisas mostram que quanto maior a abertura da perna maior a ativação dos glúteos.",
+    text: "Coloque duas elevações, pegue um halter, abra suas pernas como a moça da foto, agache sem bater o pesop no chão, não se esqueça de manter os joelhos pra fora, a lombar ereta e lembrar-se de fazer força n calcanhar.",
   },],
   [
     {
-      typeTreino: "TRÍCEPS",
-      title: "Tríceps Francês",
-      src: "https://fitnessvolt.com/wp-content/uploads/2021/12/French-Press.jpg",
-      subTitle: "Alguns estudos mostram que este exercício é o melhor para o tríceps em geral.",
-    text:"Basicamente, o tríceps francês pode ser feito tanto com barra ou halteres e até mesmo na polia com um auxílio de uma corda com participação estática dos músculos do ombro e do tronco.O movimento articular é uma extensão de cotovelo, que tem como motor primário, o complexo muscular do tríceps. Neste movimento, temos a solicitação das 3 cabeças do tríceps (média, curta e longa)."
+      typeTreino: "Posterior de Coxa e Panturrilha",
+      title: "Stiff",
+      src: "http://www.dicasdetreino.com.br/wp-content/uploads/2013/09/stiff.png",
+      subTitle: "Um exercício indispensável para posterior de coxa que fortalece sua lombar.",
+    text:"Firme os pés da distância da largura dos ombros, estufe o peito, e mantenha a lombar ereta, desça até onde sua mobilidade permitir jogando o quadril para trás. Não se esqueça de firma principalemtente o calcaanhar no chão."
   },
     {
-      title: "tríceps francês testa",
-      src: "https://images.pexels.com/photos/4608158/pexels-photo-4608158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      subTitle: "Um ótimo exercício para a cabeça longa do tríceps.",
-      text: "Ache uma polia, coloque o equipamento de sua preferência, como por exemplo a corda, fixe os cotovelos ao tronco e empurre o equipamento para baixo, deixando a corda 90° em relação ao seu ponto de origem. Não se esqueça de estufar o peito e retrair as escápulas. Firme os pés no chão de preferência um a frente do outro.",
+      title: "Cadeira Flexora",
+      src: "https://static.movimente.me/media/imgs/exercises/IMG_0969.jpg",
+      subTitle: "Esse exercício trabalhará seu bíceps femoral e aquecerá sua panturrilha para o próximo exercício.",
+      text: "Regule a cadeira segundo o seu tamanho, seu quadril tem que ficar colado com o banco com sua lombar ereta, não se esqueça de segurar no apoio lateral, se deseja aquecer sua panturrilha aponte seu pé para cima, se deseja ativar apenas posterior de coxa aponte seu pé para baixo.",
     },
     {
-      title: "Supino Fechado",
-      src: "https://www.mundoboaforma.com.br/wp-content/uploads/2022/01/supino-triceps.jpg",
-      subTitle: "Este é um dos melhores exercícios para a cabeça medial.",
-      text: "Deixe o banco reto, retraia as escápulas assim como é feito no supino tradicional, firme os pés. Na fase concentrica do exercício não estique totalmente o braço para manter uma maior tensão sobre o músculo. Se puder fazer com halteres será bem melhor.",
+      title: "Elevação de Pé",
+      src: "https://www.feitodeiridium.com.br/wp-content/uploads/2016/11/panturrilhas-1-eleva%C3%A7%C3%A3o-B.jpg",
+      subTitle: "Assim como o stiff este exercício é indispensável.",
+      text: "Se não tiver uma máquina para realizar este exercício ache alguma elevação segure um halter/anilha eleve seu pé até o limite e desça também até o limite.",
     },
   ]
 ];
